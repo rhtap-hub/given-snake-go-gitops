@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: given-snake-go-repository
+spec:
+  url: https://github.com/rhtap-hub/given-snake-go
